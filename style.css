@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top_header {
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_top_header {
+    justify-content: space-between;
+}
+
+.hr {
+    border: 1px solid #ececec;
+}
+
+.footer {
+    margin-top: 50px;
+}
