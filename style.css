@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: #ececec;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 27px;
+    line-height: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    text-decoration: none;
+    color: #222222;
+    display: flex;
+    align-items: center;
+}
+
+.logo_text {
+    margin-left: 12px;
+    margin-right: 38px;
+}
+
+.logo_d {
+    font-weight: 900;
+    color: #f16d7f;
+}
+
+.header_form {
+    display: flex;
+    height: 38px;
+    box-sizing: border-box;
+}
+
+.header_button {
+    width: 87px;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(180.0deg, #f9f9f9 0%, #f5f5f5 100%);
+    border: 1px solid #e6e6e6;
+    border-radius: 3px 0px 0px 3px;
+    font-size: 14px;
+    line-height: 38px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #222222;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header_search {
+    width: 280px;
+    background-color: #ffffff;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: #e6e6e6;
+    font-size: 14px;
+    line-height: 38px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    padding-left: 16px;
+}
+
+input.header_search::placeholder {
+    color: #a4a4a4;
+}
+
+.button_search {
+    width: 36px;
+    background-color: #ffffff;
+    font-family: 'Font Awesome';
+    font-size: 14px;
+    line-height: 38px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #a4a4a4;
+    border: 1px solid #e6e6e6;
+    border-radius: 0px 3px 3px 0px;
+    cursor: pointer;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+}
+
+.button_account {
+    width: 130px;
+    height: 38px;
+    background-color: #f16d7f;
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    border: 0;
+    margin-left: 28px;
+    border: 1px solid #e6e6e6;
+    cursor: pointer;
+}
+
+.button_account:hover {
+    background-color: #ffffff;
+    color: #f16d7f;
+    border: 1px solid #f16d7f;
+    cursor: pointer;
+}
+
+.menu_nav {
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_list {
+    list-style-type: none;
+}
+
+.menu_link {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    padding: 24px;
+    text-decoration: none;
+}
+
+.mega_menu {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 25px;
+    border: 1px solid #e8e8e8;
+    position: absolute;
+}
+
+.mega_menu_heading {
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #232323;
+    border-bottom: 1px solid #e8e8e8;
+    width: 235px;
+}
+
+.mega_menu_link {
+    display: block;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #646464;
+}
+
+.container_heading {
+    background-image: url(img/layer_24_1125.png);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.banner_header {
+    display: flex;
+    background-color: #e8e8e8;
+    height: 665px;
+    justify-content: center;
+}
+
+.heading_left {
+    display: flex;
+    align-items: stretch;
+}
+
+.border_text {
+    width: 12px;
+    height: 100%;
+    background-color: #f16d7f;
+    margin-right: 12px;
+}
+
+.heading_h1 {
+    font-size: 60px;
+    line-height: 45px;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #222222;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.heading_h2 {
+    font-size: 40px;
+    line-height: 35px;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.heading_h2 span {
+    color: #f16d7f;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.container_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    margin-top: 50px;
+}
