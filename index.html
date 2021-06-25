@@ -6,28 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brand</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="top_header">
-        <div class="container container_top_header">
-            <div>
-                <img src="img/logo-brand.png" alt="logo"> 
-                </div>
-                <input type="text">
+    <header class="header">
+        <div class="container container_header">
+            <div class="header_left">
+                <a class="logo" href="#">
+                    <img src="img/logo_brand.png" alt="logo"><p class="logo_text">bran<span class="logo_d">d</span></p>
+                </a>
+                <form class="header_form" action="#">
+                    <div class="header_button">Browse</div>
+                    <input type="text" class="header_search" placeholder="Search for Item...">
+                    <button type="submit" class="button_search">0</button>
+                </form>   
+            </div>
+            <div class="header_right">
+                <a class="cart"href="#">
+                    <img src="img/cart_icon.png" alt="cart">
+                </a>
+                <button type="submit" class="button_account">My Account</button>
+            </div>
         </div>
-        <hr>
-        <div class="container container_nav">
-            <ul>
-                <li>Home</li>
-                <li>Man</li>
-                <li>Women</li>
-                <li>Kids</li> 
-                <li>Acco</li>
+    </header>
+    <nav class="menu">
+        <div class="container">
+            <ul class="menu_nav">
+                <li class="menu_list">
+                    <a class="menu_link" href="#">Home</a>
+                </li>
+                <li class="menu_list">
+                    <a class="menu_link" href="#">Man</a>
+                    <div class="mega_menu">
+                        <div class="mega_menu_box">
+                            <h3 class="mega_menu_heading">man</h3>
+                            <a class="mega_menu_link href="#">Dresses</a>
+                            <a class="mega_menu_link href="#">Tops</a>
+                            <a class="mega_menu_link href="#">Sweaters/Knits</a>
+                            <a class="mega_menu_link href="#">Blazers</a>
+                            <a class="mega_menu_link href="#">Denim</a>
+                            <a class="mega_menu_link href="#">Leggins</a>
+                            <a class="mega_menu_link href="#">Skirts</a>
+                            <a class="mega_menu_link href="#">Accessories</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu_list">
+                    <a class="menu_link" href="#">Women</a>
+                </li>
+                <li class="menu_list">
+                    <a class="menu_link" href="#">Kids</a>
+                </li> 
+                <li class="menu_list">
+                    <a class="menu_link" href="#">Accoseriese</a>
+                </li>
+                <li class="menu_list">
+                    <a class="menu_link" href="#">Feature</a>
+                </li>
             </ul>
+        </div>
+    </nav>
+    <div class="banner_header">
+        <div class="container container_heading">
+            <div class="heading_left">
+                <div class="div">
+                    <p class="border_text"></p>
+                </div>
+                <div class="headings_h">
+                    <h1 class="heading_h1">the brand</h1>
+                    <h2 class="heading_h2">of luxerious <span>fashion</span></h2>
+                </div>
+            </div>
         </div>
     </div>
     <div class="content">
-        <div class="container"></div>
+        <div class="container container_content">
+            <div class="content_left">
+                <img src="img/for-men.png" alt="мужчина в костюме">
+                <img src="img/accesories.png" alt="портмоне">
+            </div>
+            <div class="content_right">
+                <img src="img/women.png" alt="девушка">
+                <img src="img/for-kids.png" alt="ребенок в очках">
+            </div>
+        </div>
     </div>
 
     <div class="footer">
