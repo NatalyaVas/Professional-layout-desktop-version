@@ -419,7 +419,6 @@ details[open]>.header_button:after
 .breadcrumbs
     height: 148px
     background-color: #f8f3f4
-    margin-bottom: 60px
 
     &_link
         text-decoration: none
@@ -520,6 +519,9 @@ details[open]>.sidebar_category:after
     text-transform: uppercase
     color: #f16d7f
 
+.page
+    margin-top: 60px
+
 .page_box
     padding-top: 10px
 
@@ -617,6 +619,40 @@ details[open]>.sidebar_category:after
         border: 0
         border-left: 1px solid #ebebeb
 
+.container_cart
+    display: flex
+    align-items: center
+    flex-direction: column
+    padding-top: 72px
+    padding-bottom: 122px
+    border: 1px solid #eaeaea
+
+.cart_text
+    font-size: 14px
+    line-height: 24px
+    font-weight: 700
+    color: #f16d7f
+    text-transform: uppercase
+
+    &_black
+        font-size: 18px
+        line-height: 24px
+        font-weight: 900
+        text-transform: uppercase
+        color: #4d4d4d
+
+    &_desc
+        width: 620px
+        font-size: 14px
+        line-height: 24px
+        font-weight: 300
+        color: #5e5e5e
+        text-align: center
+        padding-top: 67px
+
+.add_cart
+    width: 537px
+
 .pagination
     margin-top: 42px
     margin-bottom: 110px
@@ -697,6 +733,17 @@ details[open]>.sidebar_category:after
     background-image: url(img/men-banner.png)
     display: flex
     justify-content: left
+    align-items: center
+
+.banner_single
+    display: flex
+    justify-content: center
+    background-color: #f7f7f7
+    height: 777px
+
+.container_single
+    display: flex
+    justify-content: center
     align-items: center
 
 .heading_left
@@ -817,6 +864,7 @@ details[open]>.sidebar_category:after
         margin-bottom: 20px
 
 .prod
+    margin-top: 100px
     margin-bottom: 79px
 
 .featured_heading
@@ -826,6 +874,14 @@ details[open]>.sidebar_category:after
     font-weight: 700
     letter-spacing: 0.025em
     color: #222222
+
+    &_single
+        font-size: 24px
+        line-height: 20px
+        font-weight: 900
+        text-transform: uppercase
+        color: #4d4d4d
+        margin-bottom: 72px
 
 .featured_text
     font-size: 14px
@@ -866,6 +922,12 @@ details[open]>.sidebar_category:after
     text-transform: uppercase
     color: #222222
     margin-bottom: 20px
+
+    &_single
+        font-size: 14px
+        text-transform: uppercase
+        color: #6f6e6e
+        margin-bottom: 16px
 
 .prod_price
     font-size: 16px
@@ -1143,9 +1205,13 @@ details[open]>.sidebar_category:after
     cursor: pointer
     padding-top: 40px
 
-.box-border:hover
-    color: #f16d7f
-    display: flex
+    &:hover
+        color: #f16d7f
+        display: flex
+
+    &_cart
+        padding-top: 14px
+        padding-bottom: 18px
 
 .border_list
     list-style-type: none
