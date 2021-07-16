@@ -387,25 +387,39 @@
             </nav>
         </div>
     </div>
-    <div class="page_cart">
+    <section class="page_cart">
         <div class="container container_page_cart">
-            <form>
-                <h3 class="checkout_unit_heading">Already registed?</h3>
-                <p class="checkout_unit_text">Please log in below</p>
-                <p class="checkout_unit_text_small">Email address<span>*</span></p>
-                <input class="checkout_unit_form" type="email" required>
-                <p class="checkout_unit_text_small">Password<span>*</span></p>
-                <input class="checkout_unit_form" type="password" size="8" required>
-                <p class="checkout_unit_text_red">* Required Fileds</p>
-                <div class="box_login">
-                    <div class="button_grey">
-                        <a class="button_grey_link" href="#">Log in</a>
-                    </div>
-                    <a class="box_login_link" href="#">Forgot Password?</a>
-                </div> 
+            <form class="page_cart_column">
+                <h3 class="checkout_unit_heading checkout_unit_heading_big">Shipping Adress</h3>
+                <select class="checkout_unit_form checkout_unit_form_page_cart" id="sity">
+                    <option value="sity1">Bangladesh</option>
+                    <option value="sity2">Bangladesh</option>
+                    <option value="sity3">Bangladesh</option>
+                    <option value="sity4">Bangladesh</option>
+                </select>
+                <input class="checkout_unit_form checkout_unit_form_page_cart" type="text" placeholder="State">
+                <input class="checkout_unit_form checkout_unit_form_page_cart" type="text" placeholder="Postcode / Zip">
+                <div class="button_grey button_grey_page_cart">
+                    <a class="button_grey_link button_grey_link_page_cart" href="#">get a quote</a>
+                </div>
             </form>
+            <form class="page_cart_column">
+                <h3 class="checkout_unit_heading checkout_unit_heading_big">coupon discount</h3>
+                <label class="page_cart_column_label" for="sity">Enter your coupon code if you have one</label>
+                <input id="sity" class="checkout_unit_form checkout_unit_form_page_cart_top" type="text" placeholder="State">
+                <div class="button_grey button_grey_page_cart">
+                    <a class="button_grey_link button_grey_link_page_cart" href="#">Apply coupon</a>
+                </div>
+            </form>
+            <div class="proceed">
+                <p class="proceed_small">Sub total<span class="proceed_small_spacing">$900</span></p>
+                <h3 class="proceed_heading">Grand Total<span>$900</span></h3>
+                <div class="button_rose">
+                    <a class="button_rose_link" href="#">proceed to checkout</a>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
     <footer class="footer footer_page">
         <p class="footer_line"></p>
         <div class="container container_footer">
